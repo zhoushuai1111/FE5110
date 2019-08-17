@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Strategy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <code exchangeType="ExchangeType.SSE" id="000300" name="沪深300" SecurityType="Index" />
+</Strategy>

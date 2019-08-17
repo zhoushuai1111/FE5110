@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BackTest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <backtestArguments actionDelay="1" marginRateFile="MarginRateCfg_srrs.xml" orgidMode="all" repoFrequency="DAY01" reportDisplay="Off" resultSave="On" />
+  <benchmark code="000300" name="沪深300" exchangeType="ExchangeType.SSE" />
+  <marketParticipation value="0.5" />
+  <account backTestInitMoney="100000" serialID="1" type="Stock">
+    <BackTestInitMoney>100000</BackTestInitMoney>
+  </account>
+  <transactionCost buy="0.00005" securityType="SecurityType.StockA" sell="0.00005" />
+  <transactionCost buy="0.00005" securityType="SecurityType.StockB" sell="0.00005" />
+  <transactionCost buy="0.00005" securityType="SecurityType.Index" sell="0.00005" />
+  <transactionCost buy="0.00005" securityType="SecurityType.Fund" sell="0.00005" />
+  <transactionCost buy="0.00005" securityType="SecurityType.Bond" sell="0.00005" />
+  <transactionCost buy="0.00005" securityType="SecurityType.IndexFuture" sell="0.00005" />
+  <transactionCost buy="0.00005" securityType="SecurityType.CommodityFuture" sell="0.00005" />
+  <transactionCost buy="0.00005" securityType="SecurityType.Option" sell="0.00005" />
+  <transactionCost buy="0.00005" securityType="SecurityType.StkIdxOption" sell="0.00005" />
+  <dealPrice adverNum="0" dealPrice="Vwap" />
+</BackTest>
