@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Strategy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <strategyFunction name="srrs" />
+  <portfolioType name="order" />
+  <strategyArguments rebalanceCycle="1" returnCalFrequency="TimeIntervals.DAY01" />
+  <FactorDataCfg dateListType="DateListType.Trading" localPath="pwd\CacheData" periodType="PeriodType.StockTradingPeriod" tickerList="Stkcd_srrs.xml" />
+  <AlgorithmicTrade time="20" frequency="20" emergency="high" />
+  <AutoRunTime startTime="09:30:00" endTime="15:00:00" IsEditable="false" />
+  <Accounts>
+    <Account serialID="1" type="Stock" name="" code="" />
+  </Accounts>
+  <Parameters />
+  <data decisionDataLength="15" fieldname="HIP" frequency="TimeIntervals.DAY01" />
+  <data decisionDataLength="15" fieldname="LOP" frequency="TimeIntervals.DAY01" />
+  <data decisionDataLength="15" fieldname="CQ" frequency="TimeIntervals.DAY01" />
+</Strategy>
